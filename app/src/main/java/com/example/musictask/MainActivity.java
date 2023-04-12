@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
                 seekBar.setMax(mediaPlayer.getDuration());
 
-                handler.postDelayed(runnable,0);
+                handler.postDelayed(runnable,3);
 
             }
         });
