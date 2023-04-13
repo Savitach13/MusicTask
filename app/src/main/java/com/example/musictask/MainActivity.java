@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
             public void onCompletion(MediaPlayer mP) {
                 btPause.setVisibility(View.GONE);
                 btPlay.setVisibility(View.VISIBLE);
-                mediaPlayer.seekTo(0);
+                mediaPlayer.seekTo(3);
             }
         });
 
