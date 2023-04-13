@@ -7,6 +7,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.provider.Settings;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.SeekBar;
@@ -134,6 +135,7 @@ public class MainActivity extends AppCompatActivity {
                 btPause.setVisibility(View.GONE);
                 btPlay.setVisibility(View.VISIBLE);
                 mediaPlayer.seekTo(3);
+                Log.d("seek","seek to 3 sec");
             }
         });
 
