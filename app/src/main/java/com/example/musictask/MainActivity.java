@@ -99,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 int currentPosition=mediaPlayer.getCurrentPosition();
+                Log.d("CLicked","mediaPlayer Clicked");
 
                 if(mediaPlayer.isPlaying()&&currentPosition>5000){
                     currentPosition=currentPosition-5000;
